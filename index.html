@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="id01" class="modal">
-      <div class="header">
+      <header class="header">
         <img src="logo1.jpg" width="80" height="60" class="logo">
         <div class="header-right">
           <a class="active" href="#home">Home</a>
@@ -18,12 +18,12 @@
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
         </div>
-      </div>
+      </header>
       <div class="modal-content animate">
         <div class="container">
           <div class="w3-row">
             <div class="w3-container w3-border">
-              <h2 class= heading>Blogs</h2>
+              <h2 class= heading>Vlogs</h2>
             </div>
           </div>
           <div class="box">
@@ -41,8 +41,19 @@
           </ul>
           </div>
         </div>
-        <div class="para">Welcome To My Vlogs!</div>
+        <div class="para">Welcome To My Vlogs!
+        <div class="line">
+        <p>A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+        </div>
       </div>
+      <form class="table">
+        <div class="subhead">Subscribe</div>
+        <input type="text" placeholder="Name" name="name" id="name"></input>
+        <input type="email" placeholder="Email address" name="email" id="email">
+        <textarea placeholder="Comment" name="comment" id="comment"></textarea>
+        <button type="submit"onClick="Vlog_html()">Submit</button>
+      </form>
+    </div>
     </div>
   </body>
 </html>
